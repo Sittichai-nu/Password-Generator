@@ -1,0 +1,22 @@
+@media only screen and (min-width: 601px) and (max-width: 960px) {
+    .myjum {
+      margin-top: 4rem;
+      padding: 2.5rem;
+    }
+  
+    .head {
+      font-size: 1.8rem;
+      margin-top: -2rem;
+    }
+  
+    #password {
+      padding: 1.8rem;
+      font-size: 1.3rem;
+      margin-top: 1.5rem;
+    }
+  
+    .btn {
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+    }
+  }

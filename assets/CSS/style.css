@@ -1,38 +1,38 @@
-.header {
-    position: relative;
-    text-align: center;
-    margin: 35px;
-    margin-bottom: -35px;
+body {
+  background-image: url(../images/IMG_9104.png);
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .myjum {
-    margin-top: 100px;
-    width: 760px;
-    padding: 120px;
-    padding-bottom: 35px;
-    background-color: whitesmoke;
+  background-color: whitesmoke;
 }
-.head {
-    position: relative;
-    text-align: left;
-    font-size: 30px;
-    margin-top: -44px;
-    font-weight: bold;
-}
+
 #password {
-    padding: 50px;
-    justify-content: center;
-    text-align: center;
-    font-size: 25px;
-    border: dashed;
-    border-color: grey;
-    background-color: whitesmoke;
+  padding: 2rem;
+  font-size: 1.5rem;
+  border: 1px dashed grey;
+  background-color: whitesmoke;
+  margin-top: 2rem;
+  text-align: center;
 }
-.mycol {
-    justify-content: center;
-}
+
 .btn {
-    border-radius: 20px;
-    /* text-align: center; */
-    margin-left: 50px;
+  border-radius: 20px;
+  margin: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
 }
+@import url("mobile.css");
+@import url("tablet.css");
